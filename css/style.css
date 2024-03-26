@@ -1,0 +1,437 @@
+
+/*navegador / home */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body{
+    scroll-behavior: auto;
+}
+body{
+    background-color:#d7d7d7;  
+}
+header {  /*flex*/
+display: flex;
+align-items: center;
+justify-content: center;
+}
+header nav ul{
+    margin-top: 10px;
+    display: flex; 
+    list-style: none;
+    font-size: 25px;
+    gap: 10px;  
+   
+}
+ /* ruta de especifidad*/
+ header nav ul li a:hover{
+text-decoration:underline;
+color: #b87bff;
+ }
+header nav ul li a{
+    color: #000000;
+    text-decoration: none;
+    text-decoration:none;
+}
+main .avatar img{
+    margin: 30px;
+    margin-right: 100px;
+    width: 5%;
+    border-radius: 50%;
+}
+main .nombre-avatar h2{
+    display: flex;
+    justify-content: right;
+    margin: 20px;
+    margin-top: -30px;
+    margin-right:100px ;
+}
+main h2{
+  margin-bottom: 20px;
+  font-size: small;
+}
+.avatar{
+    display: flex;
+    justify-content:right;
+    margin-top: -120px;   
+} 
+main h1{
+    display: flex;
+    margin-top: 50px;
+   justify-content: center;
+    font-size:50px;
+    color: #000000;
+    font-style: italic;
+}
+main .logo img{
+    margin: 30px;
+    margin-left: 100px;
+    width: 10%; 
+}
+main .logo a{
+    display: flex;
+    justify-content:left;
+    align-items: end;
+}
+main video{
+    margin: 20px;
+    margin-left: 40px;
+    width: 95%;
+    height: auto;
+    border-radius: 5%;
+}
+section .img-home{
+    margin-top: 50px;
+    margin-left: 200px;
+    border-radius: 5%;
+    width: 50%;
+}
+section{
+    display: flex;
+   justify-content:right;
+    flex-direction:row-reverse
+}
+section .parrafo-dos p{
+    margin: 50px;
+    margin-left:200px;
+    width: 50%;
+    margin-top: 100px;
+    font-size: 20px;
+    text-align:center;
+    color: #000000;
+}
+main .textovideo p{
+    margin: 5px;
+    text-align: center; 
+    font-size: 20px;
+    color: #000000;  
+}
+/*servicios*/
+main .imgservi{ 
+  
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    align-content: center;
+    gap: 10px;
+    margin: 20px 10px;  
+}
+main .imgservi img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow:hidden;
+    border-radius: 5%;
+}
+
+main .imgservi img:hover{
+   transform:scale(1.1);transform:scale(1.1);
+
+}
+main .text-servi p{ 
+    text-align: center;
+     font-size: 20px;
+     color:#000000;
+     margin-bottom: 50px;
+}
+#servi .video-servi{
+   display: flex;
+   justify-content: center;
+   margin: 10px;
+   gap: 10px; 
+}
+#servi video{
+    width: 50%;
+    border-radius: 5%;
+}
+/*galeria*/
+main .img-galeria{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 5px;
+    gap: 10px;
+}
+main .img-galeria img{
+    width: 20%;
+    height: auto;
+    border-radius: 20%;   
+}
+main .one img{
+    width: 300px;
+    height: 100%;   
+}
+main .text-galeri{
+    position: absolute;
+    margin-top: 455px;
+    margin-right: 75%;   
+}
+main .two img{
+    width: 300px;
+    height: 100%;
+}
+main .three img{
+    width: 300px;
+    height: 100%;  
+}
+
+main .four img{
+    width: 300px;
+    height: 100%;  
+}
+main .text-galeria{
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+}
+#videosgaleria .videos-galeria{
+    display: flex;
+   justify-content: center;
+   margin: 20px;
+   gap: 10px;
+}
+.videos-galeria video{
+    width: 50%;
+    border-radius: 5%;
+}
+/*historia*/
+
+main .text-historia{
+    margin: 50px;
+   font-size: 20px;
+   color: #000000;
+}
+main .text-historia p{
+   text-align:center;
+}
+section .img-historia{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    gap: 10px;  
+}
+section .historia-uno img{
+    margin-left: 200px;
+    width: 50%;
+}
+section .historia-dos img{
+    margin-left: 100px;
+    width: 50%;
+}
+/*contacto*/
+main .logo-contacto{
+    display: flex;
+    justify-content: center;   
+}
+main .logo-contacto img{
+    margin-top: 50px;
+    margin-left: 260px;
+    width: 30%;
+}
+main .text-contacto{
+    text-align: center    
+}
+main .text-contacto p{
+    margin: 50px;
+    font-size: 20px;
+}
+section .input-center{
+    display:grid;
+    grid-column: repeat (1fr);
+    margin-right: 620px;
+    gap: 5px; 
+}
+section input{
+   width: 300px;
+   box-shadow: 6px 5px 5px#000000;
+   border-radius: 10px;
+
+}
+section .input-center .m{
+    height: 80px;
+    align-items: start;
+}
+section input:hover{
+    text-decoration:none;
+    background-color: #b87bff;
+}
+#footer{
+    text-align: center;   
+}
+#footer nav ul a img{
+    width: 3%; 
+     
+}
+#footer nav ul a:hover{
+    text-decoration:underline;
+    background-color: #b87bff;
+   border-radius: 100%;
+}
+#footer .map iframe{
+    margin-top: 90px;
+    border-radius: 5px;
+    width: 500px;
+    height: 200px;
+    
+}
+
+
+@media screen and (max-width: 1300px){
+    main .nombre-avatar h2{
+    background-color: #b87bff;
+    padding-left: 1100px;
+            
+}
+main .imgservi {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 0px;
+}
+
+@media screen and (min-width:360px){  /*mobile*/
+    main h1{
+          display: flex;
+            margin-top: 36px;
+            justify-content: center;
+            font-size: 36px;
+            color: #000000;
+            font-style: italic;
+    }
+main .avatar img{
+           margin: 0px;
+           margin-top: 40px;
+           margin-right: 165px;
+           width:10%;
+    }
+    main .nombre-avatar h2{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        margin-right: 40px;
+        margin-top:5px;
+    }
+    main video{
+        
+      margin: 10px;
+    }
+main .textovideo p{
+    text-align: center;
+    margin-top: 10px;
+    margin: 0px;
+   
+ 
+}
+section .img-home{
+    
+        margin-right: 364px;
+        margin-top: 39px;
+        margin-left: 304px;
+        border-radius: 5%;
+        width: 52%;
+    }
+}
+section .parrafo-dos p{
+    margin: 0px;
+    margin-left: 493px;
+    width: 338px;
+    margin-top: 550px;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    
+}
+
+#footer nav ul a img {
+    margin-top: 260px;
+    width: 30px;
+
+}
+main .imgservi{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-columns: 1fr;
+    align-content: center;
+    gap: 20px;
+   padding: 20px;
+    margin-left: 0px;
+}
+#servi .video-servi{
+    width: 365px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+#servi video {
+    width: 97%;
+    border-radius: 5%;
+}
+main .img-galeria {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px;
+    padding-left: 13px;
+    gap: 10px;
+}
+
+#videosgaleria .videos-galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 10px;
+}
+
+.videos-galeria video {
+    width: 105%;
+    border-radius: 5%;
+}
+section .parrafo-dos p {
+    margin-right: 200px;
+    margin: -664px;
+    margin-left: 259px;
+    width: 456px;
+    margin-top: 483px;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    padding: 9px;
+    padding-left: 79px;
+    }
+section .img-historia {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+section .historia-uno img {
+    margin-left: 14px;
+    width: 93%;
+}
+section .historia-dos img {
+    margin-left: 14px;
+    width: 93%;
+}
+section .input-center {
+    display: grid;
+    grid-column: repeat(1fr);
+    margin-right: 34px;
+    gap: 5px;
+}
+#footer .map iframe{
+    margin-top: 35px;
+    border-radius: 5px;
+    width: 345px;
+    height: 200px;
+}
